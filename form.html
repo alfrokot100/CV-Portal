@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+    <title>CV-Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body id="formBody">
+    <header>
+            <a href="#" class="logo">Affe</a>
+            <nav>
+                <a href="index.html" >Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="cv.html">CV</a>
+                <a href="about.html">About</a>
+                <a href="#Form" class="active">Contact</a>
+            </nav>
+    </header>
+
+    <div class="container">
+        <h1>Kontakt</h1>
+        <form class="KontaktSida">
+            <div class="main-user-info">
+                <div class="user-input">
+                <label for="name">Förnamn: </label>
+                <input type="text" id="name" name="name" placeholder="Skriv in ditt namn" required>
+                </div>
+
+                <div class="user-input">
+                <label for="mail">E-mail: </label>
+                <input type="email" id="email" name="email" placeholder="JaneDoe@mail.com" required>
+                </div>  
+            </div>
+
+                <div class="msg-box"> 
+                <label for="message">Meddelande</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Skriv in eventuell fundering här"></textarea>
+                </div> 
+
+            <div class="btn-form">
+                <button type="submit">Skicka</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>

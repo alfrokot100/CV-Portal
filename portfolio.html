@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+    <title>CV-Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <header>
+            <a href="#" class="logo">Affe</a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#Portfolio" class="active">Portfolio</a>
+                <a href="cv.html">CV</a>
+                <a href="about.html">About</a>
+                <a href="form.html">Contact</a>
+            </nav>
+    </header>
+    <section class="home">
+        <div class="portfolio-container">
+            <div class="portfolio">
+                <img src="./Images/flamman.png" alt="Bild för Projekt 1">
+                <dialog id="modal">
+                    <p>Detta projekt gick ut på att jag tillsammans med min grupp skulle skapa en fungerande
+                        bankapplikation. Applikationen var även tvungen att uppfylla ett par krav såsom att överföra pengar,
+                    </p>
+                    <form method="dialog">
+                        <button>Close</button>
+                    </form>
+                </dialog>
+                <button id="readMoreButton" onclick="modal.showModal()">Läs mer</button>
+            </div>
+    
+            <div class="portfolio">
+                <img src="./Images/dice.png" alt="Bild för Projekt 2">
+                <dialog id="modal2">
+                    <p>Detta projekt är ett simpelt tärningsspel som jag skapade, som handlar om att man ska gissa värdet
+                        som tärningen kommer landa på. High eller Low. Gissar man rätt får man forstätta spelet, annars förlorar man.
+                    </p>
+                    <form method="dialog">
+                        <button>Close</button>
+                    </form>
+                </dialog>
+                <button id="readMoreButton" onclick="modal2.showModal()">Läs mer</button>
+            </div>
+    
+            <div class="portfolio">
+                <img src="./Images/database.png" alt="Bild för Projekt 3">
+                <dialog id="modal3">
+                    <p>Detta projekt är en consol-applikation av en skol-databas. Detta arbete gick ut på att jag
+                        skulle skapa en fungerande applikation som skolan skulle kunna använda utifrån den funktionalitet
+                        som de efterfrågade.<br><br>På bilden kan man se en meny som hämtar ut det skolan ha velat få ut.
+                    </p>
+                    <form method="dialog">
+                        <button>Close</button>
+                    </form>
+                </dialog>
+                <button id="readMoreButton" onclick="modal3.showModal()">Läs mer</button>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
