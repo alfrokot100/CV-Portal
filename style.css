@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
 *
 {
     padding: 0;
@@ -41,7 +42,7 @@ header
     font-size: 3rem;
     color: #b74b4b;
     font-weight: 800;
-    cursor: pointer;
+    cursor:auto;
 }
 nav a
 {

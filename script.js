@@ -7,7 +7,7 @@ oddElement.addEventListener('click', () =>{
         {
             document.body.style.backgroundImage = "url('./Images/image.png')";
             document.body.style.backgroundSize = 'cover';
-            document.body.style.transition = 'background-image 0.8s ease-in-out'; // Lägg till transition
+            document.body.style.transition = 'background-image 0.8s ease-in-out';
 
             document.querySelector('.home').style.backgroundColor = 'transparent';
 
@@ -66,19 +66,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-document.addEventListener('DOMContentLoaded', () =>{
-    
-    const oddEle = document.querySelector('.logo');
-    oddEle.addEventListener('click', () =>{
-        if(oddEle)
-            {
-                document.body.style.backgroundImage = "url('./Images/image.png')";
-                document.body.style.backgroundSize = 'cover';
-            }
-        else
-        {
-            console.error("Kompis elementet hittas inte, gör om och gör rätt.");
-            console.error("Detta går inte kompis kolla på vad som hände")
-        }
-    })
-})
